@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyskidonion"
+version = "0.1.0"
+description = "skidonion utils"
+authors = ["zszfympx <2792668017@qq.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.32.3"
+setuptools = "^75.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
